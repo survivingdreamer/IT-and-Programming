@@ -1,9 +1,9 @@
 print('Введите коэффициенты квадратного уравнения', 'Введите коэффициент a', sep='\n')
-a=int(input())
+a=float(input())
 print('Введите коэффициент b')
-b=int(input())
+b=float(input())
 print('Введите коэффициент c')
-c=int(input())
+c=float(input())
 
 D=b ** 2 - 4 * a * c;
 print('Дискриминант =', D)
